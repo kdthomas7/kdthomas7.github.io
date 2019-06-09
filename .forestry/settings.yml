@@ -8,8 +8,10 @@ sections:
   label: Pages
   create: all
 - type: jekyll-posts
-  label: Posts
+  label: Projects
   create: all
+  templates:
+  - field1
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
