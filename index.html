@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Kyra's Code and Projects</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/css/modalStyles.css">
+<script src="/js/Scripts.js"></script> 
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -74,7 +76,22 @@
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-topleft w3-black w3-padding">First OpenGL Project: Netherlands</div>
-         <img src="/images/day_mode_fustrum.png" alt="Flowers, a windmill, and stick people." style="width:100%">
+         <!--<img src="/images/day_mode_fustrum.png" alt="Flowers, a windmill, and stick people." style="width:100%">-->
+           <!-- Trigger the Modal -->
+          <img id="myImg" src="/images/day_mode_fustrum.png" alt="Flowers, a windmill, and stick people." style="width:100%;max-width:300px">
+
+          <!-- The Modal -->
+          <div id="p1Modal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="p1img">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="My first project in OpenGL"></div>
+          </div> 
          <div class="codebox">
           <code>   
               var message = "Code comming soon!";
